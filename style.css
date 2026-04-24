@@ -179,13 +179,15 @@ body{
         padding: 2rem;
         display: flex;
         flex-wrap: wrap;
-        gap: 2rem;
+        gap:2rem;
         background-color: var(--bgcolor-dark);
         color: var(--bgcolor-white);
+        justify-content: space-between;
+
         h2{font-size: 48px; width: 100vw;}
 
         article{
-            flex: 0 1 30vw;
+            flex: 0 1 28vw;
             text-align: center;
         }
     }
@@ -212,6 +214,7 @@ body{
         padding-bottom: 0px;
         background-image:url(footerBack.svg);
         background-repeat: no-repeat;
+        background-size: contain;
 
         h3{font-size: 1.17rem;}
        
